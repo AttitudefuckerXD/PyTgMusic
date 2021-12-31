@@ -246,12 +246,12 @@ async def help_button(client, query):
     next_match = re.match(r"help_next\((.+?)\)", query.data)
     back_match = re.match(r"help_back", query.data)
     create_match = re.match(r"help_create", query.data)
-    top_text = f"""Hello {query.from_user.first_name},
+    top_text = f"""Hᴇʟʟᴏ {query.from_user.first_name} Iᴛ's,
 
-Click on the buttons for more information.
+Hᴇʟᴘ Mᴇɴᴜ Oғ 𝐏𝐲𝐓𝐠[𝐌𝐮𝐬𝐢𝐜],\n 
+Hᴇʟᴘ Mᴇɴᴜ Cʟɪᴄᴋ Tʜᴇ Bᴜᴛᴛᴏɴs Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ.
 
-All commands can be used with: /
- """
+ Cᴏᴍᴍᴇɴᴅ Hɪɴᴛ : /"""
     if mod_match:
         module = mod_match.group(1)
         text = (
