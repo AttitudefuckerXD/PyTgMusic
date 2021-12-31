@@ -27,7 +27,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
             ),
             (
                 
-                }",
+                
             ),
         ],
     ]
