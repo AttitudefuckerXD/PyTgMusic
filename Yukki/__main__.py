@@ -121,7 +121,7 @@ async def initiate_bot():
 
 home_text_pm = f"""Hello ,
 Hᴇʟʟᴏ,\n Mʏ Nᴀᴍᴇ Is 𝐏𝐲𝐓𝐠𝐂ᴀʟʟs[𝐌𝐮𝐬𝐢𝐜].
-A Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Oɴ Gʀᴏᴜᴘs Tʜʀᴏᴜɢʜ Tʜᴇ Nᴇᴡ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs Pᴏᴡᴇʀ Bʏ PʏTɢM𝐮𝐬𝐢𝐜⚡] !.
+A Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Oɴ Gʀᴏᴜᴘs Tʜʀᴏᴜɢʜ Tʜᴇ Nᴇᴡ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs Pᴏᴡᴇʀ Bʏ [PʏTɢM𝐮𝐬𝐢𝐜⚡] !.
 
 All commands can be used with: / """
 
