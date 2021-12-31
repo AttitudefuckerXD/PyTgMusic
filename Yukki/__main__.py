@@ -119,11 +119,11 @@ async def initiate_bot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""Hello ,
-Hᴇʟʟᴏ,\n Mʏ Nᴀᴍᴇ Is 𝐏𝐲𝐓𝐠𝐂ᴀʟʟs[𝐌𝐮𝐬𝐢𝐜].
-A Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Oɴ Gʀᴏᴜᴘs Tʜʀᴏᴜɢʜ Tʜᴇ Nᴇᴡ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs Pᴏᴡᴇʀ Bʏ [PʏTɢM𝐮𝐬𝐢𝐜⚡] !.
+home_text_pm = f"""Hᴇʟʟᴏ,
+Mʏ Nᴀᴍᴇ Is 𝐏𝐲𝐓𝐠𝐂ᴀʟʟs[𝐌𝐮𝐬𝐢𝐜].
+A Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Oɴ Gʀᴏᴜᴘs Tʜʀᴏᴜɢʜ Tʜᴇ Nᴇᴡ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs Pᴏᴡᴇʀ Bʏ [PʏTɢM𝐮𝐬𝐢𝐜⚡](https://telegra.ph/file/f0b385493e6d52a715ad4.png) !.
 
-Mᴀᴅᴇ Wɪᴛʜ ❤️ Bʏ [𝐕𝐢𝐣𝐚𝐲] """
+Mᴀᴅᴇ Wɪᴛʜ ❤️ Bʏ [𝐕𝐢𝐣𝐚𝐲](http://t.me/Attitude_king_vj) """
 
 
 @app.on_message(filters.command("help") & filters.private)
