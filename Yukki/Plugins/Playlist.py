@@ -34,7 +34,7 @@ __HELP__ = """
 @app.on_message(filters.command("playplaylist"))
 @checker
 async def play_playlist_cmd(_, message):
-    thumb = "https://telegra.ph/file/c8d350f019d70617544f5.jpg"
+    thumb = "Utils/Playlist.jpg"
     await message.delete()
     if not message.reply_to_message:
         if len(message.command) == 2:
@@ -103,7 +103,7 @@ async def play_playlist_cmd(_, message):
 @app.on_message(filters.command("playlist"))
 @checker
 async def playlist(_, message):
-    thumb = "https://telegra.ph/file/c8d350f019d70617544f5.jpg"
+    thumb = "Utils/Playlist.jpg"
     user_id = message.from_user.id
     user_name = message.from_user.first_name
     buttons = check_markup(user_name, user_id, "abcd")
