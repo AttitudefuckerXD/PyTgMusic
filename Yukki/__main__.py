@@ -27,7 +27,7 @@ HELPABLE = {}
 
 async def initiate_bot():
     with console.status(
-        "[magenta] Booting up The Yukki Music Bot...",
+        "[magenta] Booting up The PyTgMusic Bot...",
     ) as status:
         console.print("┌ [red]Clearing MongoDB cache...")
         try:
@@ -120,8 +120,8 @@ async def initiate_bot():
 
 
 home_text_pm = f"""Hello ,
-My name is {BOT_NAME}.
-I'm Telegram Voice Chat Audio with some useful features.
+Hᴇʟʟᴏ,\n Mʏ Nᴀᴍᴇ Is 𝐏𝐲𝐓𝐠𝐂ᴀʟʟs[𝐌𝐮𝐬𝐢𝐜].
+A Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Oɴ Gʀᴏᴜᴘs Tʜʀᴏᴜɢʜ Tʜᴇ Nᴇᴡ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs Pᴏᴡᴇʀ Bʏ PʏTɢM𝐮𝐬𝐢𝐜⚡] !.
 
 All commands can be used with: / """
 
