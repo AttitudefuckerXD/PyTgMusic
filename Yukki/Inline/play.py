@@ -73,41 +73,11 @@ def search_markup(
             InlineKeyboardButton(
                 text="➋", callback_data=f"Yukki {ID2}|{duration2}|{user_id}"
             ),
-            InlineKeyboardButton(
-                text="➌", callback_data=f"Yukki {ID3}|{duration3}|{user_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="➍", callback_data=f"Yukki {ID4}|{duration4}|{user_id}"
-            ),
-            InlineKeyboardButton(
-                text="➎", callback_data=f"Yukki {ID5}|{duration5}|{user_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="[⇜]", callback_data=f"popat 1|{query}|{user_id}"
-            ),
-            InlineKeyboardButton(
-                text="[❌]", callback_data=f"forceclose {query}|{user_id}"
-            ),
-            InlineKeyboardButton(
-                text="[⇝]", callback_data=f"popat 1|{query}|{user_id}"
-            ),
-        ],
-    ]
-    return buttons
-
+            
 
 def search_markup2(
     ID6,
     ID7,
-    ID8,
-    ID9,
-    ID10,
-    duration6,
-    duration7,
     duration8,
     duration9,
     duration10,
