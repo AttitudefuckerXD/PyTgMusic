@@ -305,32 +305,6 @@ async def slider_query_results(_, CallbackQuery):
             videoid, duration_min, user_id, query, query_type
         )
         med = InputMediaPhoto(
-            media=thumb,
-            caption=f"📎Title: **{title}\n\n⏳Duration:** {duration_min} Mins\n\n__[Get Additional Information About Video](https://t.me/{BOT_USERNAME}?start=info_{videoid})__",
-        )
-        return await CallbackQuery.edit_message_media(
-            media=med, reply_markup=InlineKeyboardMarkup(buttons)
-        )
-    if what == "B":
-        if type == 0:
-            query_type = 9
-        else:
-            query_type = int(type - 1)
-        await CallbackQuery.answer("Getting Previous Result", show_alert=True)
-        (
-            title,
-            duration_min,
-            duration_sec,
-            thumb,
-            videoid,
-        ) = get_yt_info_query_slider(query, query_type)
-        buttons = url_markup(
-            videoid, duration_min, user_id, query, query_type
-        )
-        med = InputMediaPhoto(
-            media=thumb,
-            caption=f"📎Title: **{title}\n\n⏳Duration:** {duration_min} Mins\n\n__[Get Additional Information About Video](https://t.me/{BOT_USERNAME}?start=info_{videoid})__",
-        )
-        return await CallbackQuery.edit_message_media(
+            media(
             media=med, reply_markup=InlineKeyboardMarkup(buttons)
         )
