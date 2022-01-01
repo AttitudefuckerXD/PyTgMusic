@@ -222,9 +222,9 @@ async def help_parser(name, keyboard=None):
     return (
         """Hello {first_name},
 
-Click on the buttons for more information.
-
-All commands can be used with: /
+Hᴇʟᴘ Mᴇɴᴜ Oғ 𝐏𝐲𝐓𝐠[𝐌𝐮𝐬𝐢𝐜],\n.
+Hᴇʟᴘ Mᴇɴᴜ Cʟɪᴄᴋ Tʜᴇ Bᴜᴛᴛᴏɴs Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ.\n
+Cᴏᴍᴍᴇɴᴅ Hɪɴᴛ : /
 """.format(
             first_name=name
         ),
