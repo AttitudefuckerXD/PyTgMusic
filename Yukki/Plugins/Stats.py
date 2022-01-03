@@ -174,7 +174,7 @@ async def stats_markup(_, CallbackQuery):
 
 **Mongo Uptime:** {mongouptime[:4]} Days
 **Version:** {mver}
-**Database:** {database}
+**Database:** PyTgMusic
 **Provider:** {provider}
 **DB Size:** {datasize[:6]} Mb
 **Storage:** {storage} Mb
