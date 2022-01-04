@@ -1,5 +1,4 @@
 import os
-import random
 from os import path
 
 import aiofiles
